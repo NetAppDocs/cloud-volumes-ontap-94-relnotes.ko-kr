@@ -16,7 +16,7 @@ summary: Cloud Volumes ONTAP의 새로운 릴리즈에서 새로운 기능, 향�
 Cloud Volumes ONTAP 9.4에는 몇 가지 새로운 기능과 향상된 기능이 포함되어 있습니다.
 
 
-NOTE: 최신 버전의 Cloud Manager에는 추가 기능과 개선 사항도 포함되어 있습니다. 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Cloud Manager 릴리즈 노트"] 를 참조하십시오.
+NOTE: 최신 버전의 Cloud Manager에는 추가 기능과 개선 사항도 포함되어 있습니다. 를 참조하십시오 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Cloud Manager 릴리즈 노트"^] 를 참조하십시오.
 
 
 
