@@ -113,10 +113,6 @@
   <block id="602b56cc8e56a5daf341c7f6b5489c76" category="list-text">Cloud Volumes ONTAP 암호화가 활성화된 시스템에서는 LUN 이동이 지원되지 않습니다.</block>
   <block id="ad36e2b4d23122ce393299ac3f5e4d18" category="list-text">Cloud Volumes ONTAP는 생성에 실패한 애그리게이트에도 암호화 키를 키 관리자에게 보냅니다.</block>
   <block id="e6cd7708d37be14be1ec14b31818d9c9" category="paragraph">키 관리자로부터 키를 수동으로 삭제해야 합니다.</block>
-  <block id="2d03060cc88d48d8c65d3a01864614ad" category="section-title">Microsoft Azure의 알려진 제한사항</block>
-  <block id="d0e7588890233fc627c7bcaab1e75386" category="paragraph">Azure의 Cloud Volumes ONTAP에는 다음과 같은 알려진 제한 사항이 적용됩니다.</block>
-  <block id="e4f5b6f59db7bfa0e08c02262ddbd654" category="section-title">CSP 파트너는 선불 종량제(Pay-as-you-go)을 사용할 수 없습니다</block>
-  <block id="f2ff5834d93c258f0fc4ad6cf6a17942" category="paragraph">Microsoft 클라우드 솔루션 공급자(CSP) 파트너인 경우 CSP 파트너는 선불 종량제 구독을 사용할 수 없으므로 Cloud Volumes ONTAP Explore, Standard 또는 Premium을 배포할 수 없습니다. 라이센스를 구입하고 Cloud Volumes ONTAP BYOL을 구축해야 합니다.</block>
   <block id="4cab73a24f20e30e14e8ec52694aef82" category="summary">Cloud Volumes ONTAP의 새로운 릴리즈에서 새로운 기능, 향상 기능 및 버그 수정 사항이 도입되었습니다.</block>
   <block id="51725349a7337e60469d7cccc2aa4017" category="doc">Cloud Volumes ONTAP 9.4의 새로운 기능</block>
   <block id="bc6fd8b4572c0d9cd26584917775df84" category="paragraph">Cloud Volumes ONTAP 9.4에는 몇 가지 새로운 기능과 향상된 기능이 포함되어 있습니다.</block>
@@ -290,4 +286,6 @@
   <block id="62703524dbb4d20326585184b2149d4d" category="admonition">최신 버전의 Cloud Manager에는 추가 기능과 개선 사항도 포함되어 있습니다. 를 참조하십시오<block ref="b168941a5dc7eab411ef9dc2c7a220db" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896TiB</block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">모든 Cloud Manager 설명서</block>
+  <block id="2f9882645b2c32820ad085240bacb763" category="paragraph-title">HA의 경우 노드당 또는 전체 HA 쌍의 라이센스 용량 제한이 있습니까?</block>
+  <block id="fc9a388cd18c69244f22554de6f0d544" category="paragraph-title">AWS의 HA 시스템에서 미러링된 데이터는 용량 제한에 따라 계산됩니까?</block>
 </blocks>
