@@ -125,7 +125,6 @@
   <block id="d79a3dfd452a27cb0c6ad9842942655a" category="paragraph">Cloud Volumes ONTAP 9.4 Premium 및 BYOL에서는 세 번째 옵션이 제공됩니다. 즉, _auto_Tiering 정책을 사용하여 읽기/쓰기 볼륨의 콜드 데이터 블록을 용량 계층에 계층화할 수 있습니다. 콜드 데이터에는 스냅샷 복사본뿐만 아니라 액티브 파일 시스템의 콜드 사용자 데이터도 포함됩니다.</block>
   <block id="cd092c954573d47ecd37b6e5d96c0c03" category="paragraph">랜덤 읽기로 읽는 경우 용량 계층의 콜드 데이터 블록이 핫 상태가 되어 성능 계층으로 이동합니다. 인덱스 및 바이러스 백신 검사와 관련된 읽기 작업을 순차적으로 수행할 경우 콜드 데이터 블록이 콜드 상태를 유지하고 성능 계층으로 이동하지 않습니다.</block>
   <block id="b3a853d57fdef5749cc6f40650ebaac6" category="inline-link">Cloud Manager 설명서</block>
-  <block id="6ceaaf7fac040dc75bf48fc6caccc8a6" category="paragraph">Cloud Manager에서 볼륨을 생성하거나 편집할 때 계층화 정책을 선택할 수 있습니다. 자세한 내용은 을 참조하십시오<block ref="264e5f790f4e4561900fb0ba416bb537" category="inline-link-rx"></block>.</block>
   <block id="fc4ac16b85d775e7fb2b115e9433ac1c" category="section-title">Microsoft Azure의 데이터 계층화</block>
   <block id="5cb28c8ee8d4e8e76b6d9d79a4b1669f" category="paragraph">이제 핫 데이터(프리미엄 또는 표준 관리 디스크)의 성능 계층과 콜드 데이터(Azure Blob 스토리지)의 용량 계층을 결합하여 Azure 스토리지 비용을 절감할 수 있습니다. AWS에서 지원되는 것과 동일한 계층화 정책은 Azure에서 자동, 스냅샷 전용 및 백업도 지원됩니다.</block>
   <block id="ad53146232e9199d7c72c376fd874df4" category="section-title">프로비저닝된 IOPS SSD를 사용한 데이터 계층화</block>
@@ -160,7 +159,6 @@
   <block id="7de15f2416b1b598e771303381d1179e" category="paragraph">Cloud Volumes ONTAP 시스템의 최대 시스템 용량은 라이센스에 따라 결정됩니다. 최대 시스템 용량에는 디스크 기반 스토리지와 데이터 계층화에 사용되는 오브젝트 스토리지가 포함됩니다. NetApp은 이 제한을 초과하지 않습니다.</block>
   <block id="ba23388576c937a1743b84554bd13c72" category="inline-link">비활성 데이터를 오브젝트 스토리지로 계층화</block>
   <block id="68044ff775bca3f2082575f699cbc902" category="inline-xref">Azure VM 크기별 용량 및 디스크 제한</block>
-  <block id="c994e6c52f939ebf1482f0a7bead9479" category="paragraph">Azure에서는 디스크 제한만으로 368TiB의 용량 제한에 도달하지 못합니다. 이 경우 의 용량 제한은 368TiB에 도달할 수 있습니다<block ref="91a4fc4ecb983c2fca7588f26341e223" category="inline-link-rx"></block>. 을 참조하십시오 <block ref="3e9c678258f956964e9e70e5427a6e55" category="inline-xref-macro-rx"></block> 를 참조하십시오.</block>
   <block id="794df3791a8c800841516007427a2aa3" category="cell">라이센스</block>
   <block id="643a529396d04bbbe61c8daa70456163" category="cell">최대 시스템 용량(디스크 + 오브젝트 스토리지)</block>
   <block id="768560d8110ed230b7fde848941af107" category="cell">2TiB(데이터 계층화는 Explore에서 지원되지 않음)</block>
@@ -283,9 +281,11 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">클라우드 웨비나</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
   <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAP 클라우드</block>
-  <block id="62703524dbb4d20326585184b2149d4d" category="admonition">최신 버전의 Cloud Manager에는 추가 기능과 개선 사항도 포함되어 있습니다. 를 참조하십시오<block ref="b168941a5dc7eab411ef9dc2c7a220db" category="inline-link-rx"></block> 를 참조하십시오.</block>
   <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896TiB</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">모든 Cloud Manager 설명서</block>
   <block id="2f9882645b2c32820ad085240bacb763" category="paragraph-title">HA의 경우 노드당 또는 전체 HA 쌍의 라이센스 용량 제한이 있습니까?</block>
   <block id="fc9a388cd18c69244f22554de6f0d544" category="paragraph-title">AWS의 HA 시스템에서 미러링된 데이터는 용량 제한에 따라 계산됩니까?</block>
+  <block id="46db5b29a56ccaf5d1f79e4bbe4aae89" category="paragraph">Azure에서는 디스크 제한만으로 368TiB의 용량 제한에 도달하지 못합니다. 이 경우 의 용량 제한은 368TiB에 도달할 수 있습니다<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>. 을 참조하십시오 <block ref="3e9c678258f956964e9e70e5427a6e55" category="inline-xref-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="6d43452380cd21cb4417b9a1824c3ac4" category="admonition">최신 버전의 Cloud Manager에는 추가 기능과 개선 사항도 포함되어 있습니다. 를 참조하십시오<block ref="ae983c0a7ee8a786f01e9cc8530d422b" category="inline-link-rx"></block> 를 참조하십시오.</block>
+  <block id="952b4eed8b943005d4741823b952e0f8" category="paragraph">Cloud Manager에서 볼륨을 생성하거나 편집할 때 계층화 정책을 선택할 수 있습니다. 자세한 내용은 을 참조하십시오<block ref="21af1e2086b593ece92c4b9786979343" category="inline-link-rx"></block>.</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">모든 BlueXP 설명서</block>
 </blocks>
